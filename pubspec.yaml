@@ -1,0 +1,24 @@
+name: word_memory_app
+description: 单词记忆大师 - Flutter版本
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  file_picker: ^6.1.1
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
+  
+  # 禁用生成的资源
+  generate: false
+  
+  # 资源配置
+  assets:
+    - assets/
